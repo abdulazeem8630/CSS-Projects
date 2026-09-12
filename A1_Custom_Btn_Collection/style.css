@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box;
+  margin: 0;          
+  padding: 0; 
+}
+
+#header {
+    width: 98%;
+    height: 80px;
+    background-image: linear-gradient(to right, #ff007f, #7f00ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin : 6px;
+    border-radius: 8px;
+    color: white;
+}
+
+#header i {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+span{
+  color: #cbabd5;
+}
+
+#title p {
+  color: #ebafcd;
+}
+
+#boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 6px;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.box{
+  width: 98%;
+  height: 185px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  margin-top: 20px;
+}
+
+.label {
+  display: flex;
+}
+
+.label h3 {
+  border-radius: 50%;
+  height: fit-content;
+  width: 30px;
+  text-align: center;
+  margin: 10px;
+  background-color: #467cf9;
+  color: white;
+  padding: 2px;
+}
+
+.heading {
+  margin-top: 10px;
+}
+
+.heading p {
+  margin-top: 5px;
+  font-size: small;
+}
+
+.btn {
+  margin: 15px;
+  height: 100px;
+  display: grid;
+  gap: 7px;
+}
+
+.btn4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn-size{
+  border-radius: 8px;
+  border: none;
+  height: 35px;
+  color: white;
+}
+
+/* box 1 */
+.box11 {
+  background-color: #114bf9;
+}
+.box12 {
+  background-color: #4d5671;
+}
+.box13 {
+  background-color: #08be72;
+}
+.box14 {
+  background-color: #f92c11;
+}
+.box15 {
+  background-color: #f99411;
+}
+.box16 {
+  background-color: #5792f1;
+}
+.box17 {
+  background-color: #64059c;
+}
+.box18 {
+  background-color: #f911ed;
+}
+
+/* box 2 */
+.box21 {
+  background-color: #263641;
+}
+.box22 {
+  color: black;
+  background: rgb(240, 239, 239);
+  border: 1px solid;
+}
+.box23 {
+  background-color: #0c0c0c;
+}
+.box24 {
+  background: repeating-linear-gradient(
+    45deg,
+    #495ac7,
+    #5968c5 10px,
+    #505fb8 10px,
+    #505fb5 20px
+  );
+}
+.box25 {
+  background-image: url(img.jpg);
+}
+.box26 {
+  background-color: transparent;
+  color: black;
+  border: 1px solid;
+}
+
+/* box 3 */
+.box31 {
+  background: linear-gradient(#ff007f, #4f00ff);
+}
+.box32 {
+  background: linear-gradient(to right, #ff007f, #ff6200);
+}
+.box33 {
+  background: linear-gradient(to right, #3700ff, #01bd17);
+}
+.box34 {
+  background: radial-gradient(#aa00ff, #4f00ff);
+}
+.box35 {
+  background: linear-gradient(180deg, #7c1c78 0%, #edab48 100%);
+}
+.box36 {
+  background: radial-gradient(#1c002a, #2a0182);
+}
+
+/* box 3 */
+.box41 {
+  background-color: #114bf9;
+}
+.box42 {
+  border: 2px solid blue;
+  color: blue;
+  background: transparent;
+}
+.box43 {
+  border: 2px dashed;
+  color: rgb(1, 1, 153);
+  background: transparent;
+}
+.box44 {
+  border: 2px dotted;
+  color: rgb(1, 1, 153);
+  background: transparent;
+}
+.box45 {
+  background-color: #114bf9;
+  border-radius: 8px;
+}
+.box46 {
+  background-color: #114bf9;
+  border-radius: 17px;
+}
+
+/* box 4 */
+.box51 {
+  background-color: #114bf9;
+}
+.box52 {
+  background-color: #164ef6;
+  box-shadow: rgba(90, 90, 191, 0.2) 0px 7px 29px 0px;
+}
+.box53 {
+  background-color: #114bf9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box54 {
+  background-color: #114bf9;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box55 {
+  background-color: #012aa5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.box56 {
+  background-color: #8111f9;
+}
+.box56:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+[class^="box6"] {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+}
+
+.box61{
+  color: #4f73df;
+}
+.box62{
+color: #1e44b8;
+}
+.box63{
+color: #062890;
+}
+.box64{
+color: #132f84;
+}
+
+.box66{
+background-color: #86b5f7;
+}
+.box67{
+background-color: #2878e7;
+}
+.box68{
+background-color: #9dc2f5;
+}
+
+.box610{
+  background-color: #0ca572;
+}
+.box611{
+  background-color: #16b27e;
+}
+.box612{
+  background-color: #10b981;
+}
+
+.box614{
+background-color: #6d3ae2;
+}
+.box615{
+background-color: #9a75f0;
+}
+.box616{
+background-color: #b9a1ee;
+}
+
+.box65 {
+  background-color: #1e70e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box66:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 6px 12px rgba(30, 112, 230, 0.25);
+  transform: translateY(-2px);
+}
+
+.box67:active {
+  background-color: #1d4ed8;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.box68:focus, .box64:active {
+  background-color: #1e70e6;
+  border-color: #ffffff; /* Inside ring separator */
+  box-shadow: 0 0 0 3px #93c5fd; /* Main external glow */
+}
+
+.box69 {
+  background-color: #10b981;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box610:hover {
+  background-color: #34d399;
+  box-shadow: 0 6px 12px rgba(16, 185, 129, 0.25);
+  transform: translateY(-2px);
+}
+
+.box611:active {
+  background-color: #047857;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.box612:focus, .box68:active {
+  background-color: #10b981;
+  border-color: #ffffff;
+  box-shadow: 0 0 0 3px #a7f3d0;
+}
+
+.box613 {
+  background-color: #8b5cf6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box614:hover {
+  background-color: #a78bfa;
+  box-shadow: 0 6px 12px rgba(139, 92, 246, 0.25);
+  transform: translateY(-2px);
+}
+
+.box615:active {
+  background-color: #6d28d9;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.box616:focus, .box612:active {
+  background-color: #8b5cf6;
+  border-color: #ffffff;
+  box-shadow: 0 0 0 3px #c4b5fd;
+}

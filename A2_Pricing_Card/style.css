@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #dedede;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  padding: 7px;
+  border-radius: 15px;
+  background: #dad6fe;
+  color: rgb(192, 69, 249);
+  margin: 10px;
+}
+
+header span {
+  background: linear-gradient(to right, blue, rgb(204, 1, 204));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  margin: 5px;
+  font-size: small;
+  color: #717171;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.box {
+  height: 380px;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.price p span {
+    color: white;
+    font-size: 15px;
+    background: #4570fe;
+    border-radius: 50%;
+    padding: 0 2px 0 2px;
+    border: 2px solid;
+}
+
+.heading{
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.heading i {
+    height: 40px;
+    width: auto;
+    margin: 10px;
+    padding: 11px;
+    border-radius: 8px;
+    background: #c6e1ff;
+    color: #4570fe;
+}
+
+.name h4 {
+    margin: 10px 0 7px 0;
+}
+
+.name p {
+    font-size: small;
+    color: #717171;
+}
+
+.price{
+    margin: 15px;
+}
+
+.price h2 span{
+    color: #979797;
+    font-size: small;
+}
+
+.price h2 {
+    margin-bottom: 15px;
+}
+
+.price p {
+    margin-bottom: 8px;
+    color: #575656;
+}
+
+button{
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid blue;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #4570fe;
+}
+
+.pop {
+    font-size: small;
+    margin-right: 15px;
+    padding: 5px;
+    height: 25px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(22, 22, 252) , rgb(229, 2, 229));    
+}
+
+.head2 i {
+    background: #eac6ff;
+    color: #5e1163;
+}
+
+.head3 i {
+    background: #c6ffea;
+    color: #117844;
+}
+
+.price2 p span {
+    background: #3d109c;
+    border: 2px solid;
+}
+
+.price3 p span {
+    background: #12b875;
+    border: 2px solid;
+}
+
+.btn2{
+    color: white;
+    background: linear-gradient(to right, rgb(22, 22, 252) , rgb(229, 2, 229));
+    margin: 7px;
+}
+
+.btn3 {
+    border: 1px solid rgb(1, 233, 1);
+    color: #12b875;
+}
+
+.box2 {
+    border: 1px solid blue;
+    transform: scale(1.08);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 70px;
+    gap: 25px;
+}
+.styles {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.my-line {
+    width: 1px;
+    height: 40px;
+    background-color: #cccccc;
+}
+
+.styles i {
+    height: 31px;
+    width: auto;
+    padding: 7.5px;
+    border-radius: 50%;
+    background: #dde3ea;
+    color: #939cb9;
+    margin-bottom: 20px;
+}
+
+.foot h4 {
+    font-size: small;
+    color: #4e504f;
+}
+
+.foot p {
+    font-size: small;
+    color: #717171;
+}
+
+
+/* 2. Tablets (577px se lekar 768px tak ki screens ke liye) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    body{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .price2 p {
+        font-size: small;
+        margin-bottom: 5px;
+    }
+}
+
+/* 3. Laptops / Desktops (769px se lekar 992px tak ki screens ke liye) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .price2 p {
+        font-size: small;
+        margin-bottom: 5px;
+    }
+}
+
+/* 4. Large Screens / Extra Large Desktops (993px aur usse badi screens) */
+@media screen and (min-width: 993px) {
+    body{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
